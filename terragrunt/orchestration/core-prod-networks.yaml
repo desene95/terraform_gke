@@ -1,0 +1,7 @@
+---
+internal:
+  network:
+    network_name: "sharedvpc"
+    #routing_mode: "GLOBAL"
+  app_engine:
+    name: "myappengine"

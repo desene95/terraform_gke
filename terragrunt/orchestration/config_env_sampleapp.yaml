@@ -1,0 +1,21 @@
+---
+
+global:
+  owner: None
+  location: "US"
+  region: "us-central1"
+  remote_state:
+    bucket_name: "dame-tf-bucket"
+  billing_account: "016DA7-E4E581-35083E"
+  parent_org_id: &org_id "390589390253"
+  host_project:
+    parent: folders/646848898418
+    name: &host_proj "My First Project"
+    id: "sapient-tracer-393217"
+  service_project:
+    app_engine:
+      #parent_org_id: &org_id "390589390253"
+      #parent: 
+      project_name: &app_engine_proj_name "disco-ivy-394019"
+      region: "us-central"
+
